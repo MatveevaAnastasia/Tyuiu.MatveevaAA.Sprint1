@@ -6,8 +6,9 @@ namespace Tyuiu.MatveevaAA.Sprint1.Task6.V8.Lib
     {
         public string MoveLetterToEnd(string value)
         {
-            var words = value.Split(new[] { ' ', '\t', '\n' } );
-            return words[0];
+            value = value.Replace(" ", "");
+            value = value.Replace("*", "");
+            return value;
         }
     }
 }
