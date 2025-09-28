@@ -24,7 +24,6 @@ internal class Program
         Console.Write("Введите расстояние в километрах: ");
         int km = int.Parse(Console.ReadLine());
         double miles = km / 1.609;
-        Console.WriteLine(Math.Round(miles, 3));
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
