@@ -1,0 +1,13 @@
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
+
+namespace Tyuiu.MatveevaAA.Sprint1.Task6.V8.Lib
+{
+    public class DataService : ISprint1Task6V8
+    {
+        public string MoveLetterToEnd(string value)
+        {
+            var words = value.Split(new[] { ' ', '\t', '\n' } );
+            return words[0];
+        }
+    }
+}
