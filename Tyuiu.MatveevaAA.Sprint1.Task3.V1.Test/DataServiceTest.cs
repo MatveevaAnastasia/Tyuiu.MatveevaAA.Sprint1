@@ -9,9 +9,9 @@ namespace Tyuiu.MatveevaAA.Sprint1.Task3.V1.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int r = 3, h = 2;
+            int r = 1, h = 2;
             var res = ds.CylinderVolume(r, h);
-            Assert.AreEqual(18, res);
+            Assert.AreEqual(6.283, res);
         }
     }
 }
