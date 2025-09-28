@@ -1,4 +1,5 @@
-﻿using Tyuiu.MatveevaAA.Sprint1.Task2.V1.Lib;
+﻿using System;
+using Tyuiu.MatveevaAA.Sprint1.Task2.V1.Lib;
 
 internal class Program
 {
@@ -14,24 +15,23 @@ internal class Program
         Console.WriteLine("* Выполнила: Матвеева Анастасия Андреевна | ПКТБ-25-1                     *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
-        Console.WriteLine("* Написать программу, которая вычисляет выражение (1-x)/(2+y)             *");
-        Console.WriteLine("* и печатает результат на экране                                          *");
+        Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
+        Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.             *");
         Console.WriteLine("*                                                                         *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
-        double x, y;
-        Console.WriteLine("Введите X: ");
-        x = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Введите Y: ");
-        y = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Введите расстояние в километрах: ");
+        int km = int.Parse(Console.ReadLine());
+        double miles = km / 1.609;
+        Console.WriteLine(Math.Round(miles, 3));
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
 
-
-        Console.WriteLine(Math.Round(ds.Calculate(x, y), 3));
+        Console.WriteLine(Math.Round(miles, 3));
+        
 
         Console.ReadLine();
     }
