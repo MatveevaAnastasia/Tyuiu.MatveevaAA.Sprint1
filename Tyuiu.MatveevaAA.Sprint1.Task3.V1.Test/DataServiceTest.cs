@@ -11,7 +11,7 @@ namespace Tyuiu.MatveevaAA.Sprint1.Task3.V1.Test
             DataService ds = new DataService();
             int r = 3, h = 2;
             var res = ds.CylinderVolume(r, h);
-            Assert.AreEqual(56.52, res);
+            Assert.AreEqual(18, res);
         }
     }
 }

@@ -31,7 +31,7 @@ internal class Program
         double.TryParse(input2, out double h) &&
         r > 0 && h > 0)
         {
-            double square2 = Math.PI * Math.Pow(r * r) * h;
+            double square2 = Math.PI * Math.Pow(r, 2) * h;
             Console.WriteLine($"Объем цилиндра: {Math.Round(square2, 3)}");
         }
         else
