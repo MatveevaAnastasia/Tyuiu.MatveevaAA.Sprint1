@@ -10,7 +10,7 @@ namespace Tyuiu.MatveevaAA.Sprint1.Task2.V1.Test
         {
             DataService ds = new DataService();
             int x = 32;
-            int value = 1609;
+            int value = 1000;
             var res = ds.ConvertKmToM(x);
             Assert.AreEqual(1.609, res);
         }
