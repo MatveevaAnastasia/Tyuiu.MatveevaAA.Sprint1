@@ -10,8 +10,8 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #1                                                               *");
         Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-        Console.WriteLine("* Задание #0                                                              *");
-        Console.WriteLine("* Вариант #0                                                              *");
+        Console.WriteLine("* Задание #2                                                              *");
+        Console.WriteLine("* Вариант #1                                                              *");
         Console.WriteLine("* Выполнила: Матвеева Анастасия Андреевна | ПКТБ-25-1                     *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
