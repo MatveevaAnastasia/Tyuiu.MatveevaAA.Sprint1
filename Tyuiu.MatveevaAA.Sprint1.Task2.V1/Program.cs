@@ -1,4 +1,4 @@
-﻿using Tyuiu.MatveevaAA.Sprint1.Task1.V24.Lib;
+﻿using Tyuiu.MatveevaAA.Sprint1.Task2.V1.Lib;
 
 internal class Program
 {
@@ -9,14 +9,14 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #1                                                               *");
         Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-        Console.WriteLine("* Задание #1                                                              *");
-        Console.WriteLine("* Вариант #24                                                             *");
+        Console.WriteLine("* Задание #0                                                              *");
+        Console.WriteLine("* Вариант #0                                                              *");
         Console.WriteLine("* Выполнила: Матвеева Анастасия Андреевна | ПКТБ-25-1                     *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
-        Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-        Console.WriteLine("* вычисляет результат по формуле  (1-x)/(2+y)                             *");
-        Console.WriteLine("* и печатает его на экране                                                *");
+        Console.WriteLine("* Написать программу, которая вычисляет выражение (1-x)/(2+y)             *");
+        Console.WriteLine("* и печатает результат на экране                                          *");
+        Console.WriteLine("*                                                                         *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
